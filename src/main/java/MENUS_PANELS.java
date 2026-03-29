@@ -9,8 +9,14 @@ public class MENUS_PANELS {
     JMenu fileMenu, viewMenu, helpMenu;
 
     public MENUS_PANELS() {
+    if (!GraphicsEnvironment.isHeadless()) {
         this.createJFrame();
+    } else {
+        createMenus();
+        createLeftPanel();
+        createRightPanel();
     }
+}
 
     public void createJFrame() {
         frame = new JFrame("Menus and Panels");
