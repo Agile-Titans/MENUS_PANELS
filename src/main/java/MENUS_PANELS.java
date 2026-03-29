@@ -1,5 +1,5 @@
-// Sprint 1 - JFrame Setup and Menu Configuration
-// Created JMenuBar with File, Edit and View menus
+// Branch 1 - JFrame Setup
+// Created JFrame with title Panel and Menu Application
 // Set JFrame to maximized using MAXIMIZED_BOTH
 import javax.swing.*;
 import java.awt.*;
