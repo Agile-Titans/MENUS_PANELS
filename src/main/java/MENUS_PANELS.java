@@ -1,3 +1,7 @@
+// Sprint 2 - Navigation Panel and BorderLayout Setup
+// Created NORTH panel with title label
+// Created WEST panel with 4 navigation buttons
+// Created SOUTH panel with status label
 import javax.swing.*;
 import java.awt.*;
 
