@@ -1,7 +1,6 @@
-// Sprint 2 - Navigation Panel and BorderLayout Setup
-// Created NORTH panel with title label
-// Created WEST panel with 4 navigation buttons
-// Created SOUTH panel with status label
+// Branch 2 - Menu Configuration
+// Created JMenuBar with File, Edit and View menus
+// Added all menu items to each menu
 import javax.swing.*;
 import java.awt.*;
 
