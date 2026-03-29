@@ -1,3 +1,7 @@
+// Branch 3 - Navigation Panels
+// Created NORTH panel with title label
+// Created WEST panel with 4 navigation buttons
+// Created SOUTH panel with status label
 import javax.swing.*;
 import java.awt.*;
 
