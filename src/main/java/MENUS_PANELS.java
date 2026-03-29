@@ -1,3 +1,6 @@
+// Branch 1 - JFrame Setup
+// Created JFrame with title Panel and Menu Application
+// Set JFrame to maximized using MAXIMIZED_BOTH
 import javax.swing.*;
 import java.awt.*;
 
