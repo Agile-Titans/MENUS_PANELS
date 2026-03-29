@@ -29,7 +29,7 @@ pipeline {
         }
         stage('Code Quality Analysis') {
             steps {
-                bat 'mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.token=%SONAR_TOKEN%'
+                bat 'mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.token=%SONAR_TOKEN% -Dsonar.projectKey=MENUS_PANELS'
             }
         }
         stage('Deploy to Staging') {
