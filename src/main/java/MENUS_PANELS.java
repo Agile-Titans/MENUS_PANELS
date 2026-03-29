@@ -1,3 +1,6 @@
+// Branch 2 - Menu Configuration
+// Created JMenuBar with File, Edit and View menus
+// Added all menu items to each menu
 import javax.swing.*;
 import java.awt.*;
 
