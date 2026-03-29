@@ -18,6 +18,9 @@ class MENUS_PANELSTest {
     }
     @Test
     void createJFrame() {
+        if (GraphicsEnvironment.isHeadless()) {
+            return;
+        }
         JFrame frame = app.frame;
         assertNotNull(frame);
         assertEquals("Menus and Panels", frame.getTitle());
